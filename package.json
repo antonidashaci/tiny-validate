@@ -1,0 +1,38 @@
+{
+  "name": "tiny-validate",
+  "version": "1.0.0",
+  "description": "Composable schema validation in one dependency-free file. Every error carries the path to the field that failed.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "validation",
+    "schema",
+    "validator",
+    "parse",
+    "form",
+    "api",
+    "serverless",
+    "zero-dependency"
+  ],
+  "author": "antonidashaci",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonidashaci/tiny-validate.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
